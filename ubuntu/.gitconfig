@@ -1,0 +1,38 @@
+[user]
+	name = Junhyun Shin
+	email = hl1sqi@gmail.com
+[color]
+	status = auto
+	branch = auto
+	ui = true
+[push]
+	default = simple
+[pull]
+	rebase = true
+[rerere]
+	enabled = true
+[core]
+	autocrlf = input
+	editor = nvim
+	pager = 
+[apply]
+	whitespace = nowarn
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	s = status -s
+	lg = log --oneline --decorate --all --graph
+	mylog = log --pretty=format:'%h %s [%an]' --graph
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[init]
+	defaultBranch = main
+
+
