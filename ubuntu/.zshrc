@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-export PATH="/home/uwtec/.pixi/bin:$PATH"
+export PATH="$HOME/.pixi/bin:$PATH"
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -152,7 +152,7 @@ eval "$(register-python-argcomplete ros2)"
 eval "$(register-python-argcomplete colcon)"
 
 # pixi
-# export PATH="/home/uwtec/.pixi/bin:$PATH"
 eval "$(pixi completion --shell zsh)"
 
-. "$HOME/.local/bin/env"
+[[ -d $HOME/.local/bin/env ]] && source "$HOME/.local/bin/env"
+
