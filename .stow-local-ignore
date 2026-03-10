@@ -1,0 +1,8 @@
+# Ignore macOS metadata
+\.DS_Store
+
+# Ignore git directories
+\.git
+
+# Ignore local.conf
+local.conf
