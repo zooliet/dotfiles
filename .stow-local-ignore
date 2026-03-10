@@ -6,3 +6,6 @@
 
 # Ignore local.conf
 local.conf
+
+# Ignore Yocto build artifacts
+lazy-lock.json
