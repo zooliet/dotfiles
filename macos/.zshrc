@@ -170,3 +170,13 @@ eval "$(pixi completion --shell zsh)"
 # iterm2 shell integration
 # test -e /Users/hl1sqi/.iterm2_shell_integration.zsh && source /Users/hl1sqi/.iterm2_shell_integration.zsh || true
 
+
+# opencode
+export PATH=/Users/hl1sqi/.opencode/bin:$PATH
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/hl1sqi/.local/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/hl1sqi/.antigravity-ide/antigravity-ide/bin:$PATH"
