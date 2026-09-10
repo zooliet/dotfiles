@@ -1,2 +1,10 @@
 local.conf
 lazy-lock.json
+
+*.log
+*.tmp
+*.lock
+**/herdr/*
+!**/herdr/config.toml
+!**/herdr/plugins.json
+

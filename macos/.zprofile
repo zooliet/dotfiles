@@ -13,6 +13,3 @@ eval "$(pyenv init --path)"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
-
-# Added by Antigravity CLI installer
-export PATH="/Users/hl1sqi/.local/bin:$PATH"

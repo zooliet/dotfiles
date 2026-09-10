@@ -155,28 +155,14 @@ eval "$(register-python-argcomplete colcon)"
 # pixi
 eval "$(pixi completion --shell zsh)"
 
-# opencode
-# export PATH=/Users/hl1sqi/.opencode/bin:$PATH
-
-# OpenClaw Completion
-# source <(openclaw completion --shell zsh)
-
-# Added by LM Studio CLI (lms)
-# export PATH="$PATH:/Users/hl1sqi/.lmstudio/bin"
-
 # SSH Agent 
 # [ -s "$HOME/.ssh-agent.sh" ] && . "$HOME/.ssh-agent.sh"  # This loads ssh-agent
 
 # iterm2 shell integration
 # test -e /Users/hl1sqi/.iterm2_shell_integration.zsh && source /Users/hl1sqi/.iterm2_shell_integration.zsh || true
 
-
 # opencode
 export PATH=/Users/hl1sqi/.opencode/bin:$PATH
 
-
-# Added by Antigravity CLI installer
-export PATH="/Users/hl1sqi/.local/bin:$PATH"
-
-# Added by Antigravity IDE
-export PATH="/Users/hl1sqi/.antigravity-ide/antigravity-ide/bin:$PATH"
+# Pi
+export PATH="/Users/hl1sqi/.volta/tools/image/node/24.20.0/bin:$PATH"
