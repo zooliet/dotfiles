@@ -6,5 +6,3 @@ lazy-lock.json
 *.lock
 **/herdr/*
 !**/herdr/config.toml
-!**/herdr/plugins.json
-
